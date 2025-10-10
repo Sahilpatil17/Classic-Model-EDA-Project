@@ -57,7 +57,3 @@ ORDER BY creditLimit DESC;
 SELECT CustomerNumber,CustomerName
 FROM customers
 WHERE salesRepEmployeeNumber IS NULL;
-#---------------------------------------------------
-#7.Show all orders placed in 2004.
-#Code---
-SELECT orderNumber FROM orders WHERE orderDate =2004;
